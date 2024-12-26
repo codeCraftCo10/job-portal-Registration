@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="./todo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 Job Portal 🌟</h1>
+            <p>Find your dream job or post an opportunity.</p>
+        </header>
+        <main>
+            <section class="job-input">
+                <h2>Post a Job</h2>
+                <input type="text" id="job-title" placeholder="Job Title" />
+                <input type="text" id="company-name" placeholder="Company Name" />
+                <input type="text" id="location" placeholder="Location" />
+                <textarea id="job-description" placeholder="Job Description"></textarea>
+                <button id="add-job-btn">Post Job</button>
+            </section>
+            <section class="job-list">
+                <h2>Available Jobs</h2>
+                <input type="text" id="search-jobs" placeholder="Search jobs..." />
+                <ul id="jobs"></ul>
+            </section>
+        </main>
+    </div>
+    <script src="./todo.js"></script>
+</body>
+</html>

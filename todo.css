@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    color: #0b0101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #e6d2d2;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #007acc;
+}
+
+.job-input, .job-list {
+    margin-bottom: 20px;
+}
+
+.job-input input, .job-input textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.job-input button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #007acc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.job-list input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#jobs {
+    list-style: none;
+    padding: 0;
+}
+
+.job-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: #f9f9f9;
+}
+
+.job-item h3 {
+    margin: 0;
+    color: #007acc;
+}
+
+.job-item p {
+    margin: 5px 0;
+}
+
+button.save-btn {
+    padding: 5px 10px;
+    background: #d3081d;
+    color: #ebe3e3;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button.apply-btn {
+    padding: 5px 10px;
+    background: #1cbe13;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
